@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Dynamo Room | Steakhouse & Oyster Bar NYC</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              brand: {
+                gold: '#c5a059',
+                dark: '#0f0f0f',
+                charcoal: '#1a1a1a',
+                offwhite: '#f5f5f5'
+              }
+            },
+            fontFamily: {
+              serif: ['Times New Roman', 'serif'],
+              sans: ['Helvetica', 'Arial', 'sans-serif'],
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        background-color: #0f0f0f;
+        color: #f5f5f5;
+      }
+      /* Custom scrollbar for menu */
+      .no-scrollbar::-webkit-scrollbar {
+        display: none;
+      }
+      .no-scrollbar {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.9.6",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
